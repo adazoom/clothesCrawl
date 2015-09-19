@@ -19,6 +19,9 @@
 		080A1CA71BADFB300052035D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A1CA61BADFB300052035D /* Bolts.framework */; };
 		080A1CA91BADFB380052035D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A1CA81BADFB380052035D /* FBSDKCoreKit.framework */; };
 		080A1CAB1BADFB460052035D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A1CAA1BADFB460052035D /* FBSDKLoginKit.framework */; };
+		080A1CAD1BADFF3E0052035D /* 12038334_10207674316646833_4152276955640210336_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080A1CAC1BADFF3E0052035D /* 12038334_10207674316646833_4152276955640210336_n.jpg */; };
+		080A1CAF1BAE03EE0052035D /* font.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080A1CAE1BAE03EE0052035D /* font.jpg */; };
+		080A1CB31BAE07500052035D /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080A1CB21BAE07500052035D /* back.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		080A1CA61BADFB300052035D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../FacebookSDKs-iOS-20150813/Bolts.framework"; sourceTree = "<group>"; };
 		080A1CA81BADFB380052035D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		080A1CAA1BADFB460052035D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		080A1CAC1BADFF3E0052035D /* 12038334_10207674316646833_4152276955640210336_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12038334_10207674316646833_4152276955640210336_n.jpg; sourceTree = "<group>"; };
+		080A1CAE1BAE03EE0052035D /* font.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = font.jpg; sourceTree = "<group>"; };
+		080A1CB21BAE07500052035D /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +152,10 @@
 		080A1C9D1BADE2D60052035D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				080A1CAC1BADFF3E0052035D /* 12038334_10207674316646833_4152276955640210336_n.jpg */,
 				080A1C9B1BADE2CD0052035D /* facebook-login-button.png */,
+				080A1CAE1BAE03EE0052035D /* font.jpg */,
+				080A1CB21BAE07500052035D /* back.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -235,6 +244,9 @@
 				080A1C9C1BADE2CD0052035D /* facebook-login-button.png in Resources */,
 				080A1C7C1BADC7910052035D /* LaunchScreen.xib in Resources */,
 				080A1C791BADC7910052035D /* Images.xcassets in Resources */,
+				080A1CB31BAE07500052035D /* back.jpg in Resources */,
+				080A1CAF1BAE03EE0052035D /* font.jpg in Resources */,
+				080A1CAD1BADFF3E0052035D /* 12038334_10207674316646833_4152276955640210336_n.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -399,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

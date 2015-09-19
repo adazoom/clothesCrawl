@@ -1,16 +1,18 @@
 import UIKit
 
 class LogInViewController: UIViewController, FBSDKLoginButtonDelegate  {
+    @IBOutlet weak var buttonView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
         
         let loginButton : FBSDKLoginButton = FBSDKLoginButton()
-        self.view.addSubview(loginButton)
-        loginButton.center = self.view.center
+        buttonView.addSubview(loginButton)
+        loginButton.center = CGPoint(x: 180,y: 40);
         loginButton.readPermissions = ["public_profile", "email", "user_friends"]
         loginButton.delegate = self
+        
 
 //        if (FBSDKAccessToken.currentAccessToken() != nil)
 //        {
